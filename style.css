@@ -28,6 +28,9 @@
 .title-width {
   width: 40%;
 }
+.btn-me:hover{
+  font-size: 32px;
+}
 
 /* responsive css start  */
 @media only screen and (max-width: 576px) {
