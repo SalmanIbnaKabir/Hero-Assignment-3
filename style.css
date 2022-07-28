@@ -19,59 +19,51 @@
 .carousel-caption {
   bottom: 25%;
   width: 50%;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
-
 /* courses css */
-.title-width{
+.title-width {
   width: 40%;
 }
 
-/* responsive css start  */                                               
-@media only screen and (max-width: 576px){
-  .carousel-caption{
+/* responsive css start  */
+@media only screen and (max-width: 576px) {
+  .carousel-caption {
     bottom: 0px;
     width: 80%;
     padding-right: 30px;
-    
   }
-  .carousel-caption-h1{
+  .carousel-caption-h1 {
     font-size: 1.3rem;
-
   }
-  .carousel-caption p{
+  .carousel-caption p {
     font-size: 0.8rem;
   }
-/* courses css */
-.title-width{
-  width: 90%;
+  /* courses css */
+  .title-width {
+    width: 90%;
+  }
 }
-
-  
-
-
-}
-@media only screen and (max-width: 768px) and (min-width:578px){
+@media only screen and (max-width: 768px) and (min-width: 578px) {
   .carousel-caption {
-    bottom:10px ;
+    bottom: 10px;
     width: 80%;
     padding-right: 20px;
   }
   /* courses css */
-.title-width{
-  width: 80%;
-}
-  
+  .title-width {
+    width: 80%;
+  }
 }
 
-@media only screen and (max-width: 992px) and (min-width:767px){
+@media only screen and (max-width: 992px) and (min-width: 767px) {
   .carousel-caption {
-    bottom:30px ;
+    bottom: 30px;
   }
-  
+
   /* courses css */
-.title-width{
-  width: 60%;
-}
+  .title-width {
+    width: 60%;
+  }
 }
