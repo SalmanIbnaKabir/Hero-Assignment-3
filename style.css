@@ -5,6 +5,7 @@
   -webkit-background-size: cover;
   background-size: cover;
 }
+
 .carousel-item::before {
   content: "";
   display: block;
@@ -14,8 +15,9 @@
   bottom: 0;
   right: 0;
   background-color: black;
-  opacity: 0.6;
+  opacity: 0.5;
 }
+
 .carousel-caption {
   bottom: 25%;
   width: 50%;
@@ -34,35 +36,42 @@
     width: 80%;
     padding-right: 30px;
   }
+
   .carousel-caption-h1 {
     font-size: 1.3rem;
   }
+
   .carousel-caption p {
     font-size: 0.8rem;
   }
+
   /* courses css */
   .title-width {
     width: 90%;
   }
+
   /* companies */
-  .companies{
+  .companies {
     display: none;
   }
 }
+
 @media only screen and (max-width: 768px) and (min-width: 578px) {
   .carousel-caption {
     bottom: 10px;
     width: 80%;
     padding-right: 20px;
   }
+
   /* courses css */
   .title-width {
     width: 80%;
   }
- /* companies */
- .companies{
-  display: none;
-}
+
+  /* companies */
+  .companies {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 992px) and (min-width: 767px) {
@@ -76,7 +85,7 @@
   }
 
   /* companies */
-  .companies{
+  .companies {
     display: none;
   }
 }
