@@ -1,11 +1,11 @@
 /* slider  */
-/* .carousel-item{
+.carousel-item {
   height: 70%;
   background: no-repeat scroll center scroll;
-  -webkit-background-size:cover;
+  -webkit-background-size: cover;
   background-size: cover;
 }
-.carousel-item::before{
+.carousel-item::before {
   content: "";
   display: block;
   position: absolute;
@@ -16,7 +16,62 @@
   background-color: black;
   opacity: 0.6;
 }
-.carousel-caption{
+.carousel-caption {
+  bottom: 25%;
+  width: 50%;
+  margin:0 auto;
+}
+
+
+/* courses css */
+.title-width{
+  width: 40%;
+}
+
+/* responsive css start  */                                               
+@media only screen and (max-width: 576px){
+  .carousel-caption{
+    bottom: 0px;
+    width: 80%;
+    padding-right: 30px;
+    
+  }
+  .carousel-caption-h1{
+    font-size: 1.3rem;
+
+  }
+  .carousel-caption p{
+    font-size: 0.8rem;
+  }
+/* courses css */
+.title-width{
+  width: 90%;
+}
+
   
-  background-color: green;
-} */
+
+
+}
+@media only screen and (max-width: 768px) and (min-width:578px){
+  .carousel-caption {
+    bottom:10px ;
+    width: 80%;
+    padding-right: 20px;
+  }
+  /* courses css */
+.title-width{
+  width: 80%;
+}
+  
+}
+
+@media only screen and (max-width: 992px) and (min-width:767px){
+  .carousel-caption {
+    bottom:30px ;
+  }
+  
+  /* courses css */
+.title-width{
+  width: 60%;
+}
+}
