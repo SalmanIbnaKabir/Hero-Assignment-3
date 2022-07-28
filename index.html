@@ -14,48 +14,50 @@
 
 <body>
   <!-- header section start -->
-  <header class="container">
+  <header>
     <!-- navbar section start -->
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand fs-3 fw-bolder" href="#">Pro Edu</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto mb-2  mb-lg-0">
-            <li class="nav-item me-lg-3">
-              <a class="nav-link " aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item me-lg-3">
-              <a class="nav-link " aria-current="page" href="#">Courses</a>
-            </li>
-            <li class="nav-item me-lg-3">
-              <a class="nav-link " aria-current="page" href="#">Deals</a>
-            </li>
-            <li class="nav-item me-lg-3">
-              <a class="nav-link " aria-current="page" href="#">Succes</a>
-            </li>
-            <li class="nav-item me-lg-3">
-              <a class="nav-link " aria-current="page" href="#">About</a>
-            </li>
-            <li class="nav-item me-lg-3">
-              <a class="nav-link " aria-current="page" href="#">Register</a>
-            </li>
-          </ul>
-          <form class="d-flex " role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+    <div class="container fixed-top">
+      <nav class="navbar navbar-expand-lg bg-light ">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-3 fw-bolder" href="#">Pro Edu</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2  mb-lg-0">
+              <li class="nav-item me-lg-3">
+                <a class="nav-link " aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item me-lg-3">
+                <a class="nav-link " aria-current="page" href="#">Courses</a>
+              </li>
+              <li class="nav-item me-lg-3">
+                <a class="nav-link " aria-current="page" href="#">Deals</a>
+              </li>
+              <li class="nav-item me-lg-3">
+                <a class="nav-link " aria-current="page" href="#">Succes</a>
+              </li>
+              <li class="nav-item me-lg-3">
+                <a class="nav-link " aria-current="page" href="#">About</a>
+              </li>
+              <li class="nav-item me-lg-3">
+                <a class="nav-link " aria-current="page" href="#">Register</a>
+              </li>
+            </ul>
+            <form class="d-flex " role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
         </div>
-      </div>
-    </nav>
-    </nav>
+      </nav>
+      </nav>
+    </div>
     <!-- nav section end  -->
     <!-- slider section starat -->
-    <section class="mt-3">
+    <section class="mt-3 container">
       <div id="carouselExampleDark" class="carousel  slide" data-bs-ride="carousel">
 
         <div class="carousel-inner">
@@ -312,6 +314,114 @@
 
       </div>
   <!-- explore The section end  -->
+
+
+      <!-- Register now section start  -->
+
+
+      <section class="container bg-info p-5 rounded">
+        <div class="d-flex text-white justify-content-end align-items-center">
+          <div class="d-flex flex-sm-column flex-md-row justify-content-between align-content-start">
+            <div class="w-50">
+              <h2>Ready to Join? </h2>
+              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+          </div>
+          <div class="w-50 ms-5" >
+            <!-- modal bootstrap -->
+            <!-- Button trigger modal -->
+             <p class="btn btn-light text-info" data-bs-toggle="modal" data-bs-target="#exampleModal"> Register Now</p>
+  
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-black" id="exampleModalLabel">Register Form </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <!-- input modal body  -->
+                <div class="mb-3 row">
+                  <label for="staticEmail" class="col-sm-2 col-form-label text-black">Email</label>
+                  <div class="col-sm-10">
+                    
+                    <input type="text"  class="form-control" id="staticEmail"  placeholder="enter your email">
+                  </div>
+                </div>
+                <div class="mb-3 row">
+                  <label for="inputPassword" class="col-sm-2 col-form-label text-black">Passsword</label>
+                  <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword" placeholder="input your Passsword">
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary"  data-bs-dismiss="modal" >Submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+  
+  
+          </div>
+          </div>
+          
+      </div>
+      </section>
+      <!-- Register now section end  -->
+
+      <!-- successfull student section starat  -->
+      <section class="container my-5">
+        <div class="title-width ps-1 text-sm-center text-md-start">
+          <h1>Meet our successfull Student </h1>
+          <p> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        </div>
+        <div class="row row-cols-1  row-cols-md-2  row-cols-lg-4 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/student/student-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Salman Kabir</h5>
+                <p class="card-text">UI/UX Designer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/student/student-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Jannatul Islam</h5>
+                <p class="card-text">Motion Designer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/student/student-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">SIK Tanzid</h5>
+                <p class="card-text">Graphics Designer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/student/student-4.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Ashfia Tanisha</h5>
+                <p class="card-text">Web Developer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container d-flex justify-content-center align-items-center mt-4">
+          <a href="#" class="btn-info btn text-white">View All </a>
+        </div>
+        
+      </section>
+       <!-- successfull student section starat  -->
   </main>
 
 
